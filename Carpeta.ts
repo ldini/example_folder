@@ -36,9 +36,6 @@ export class Carpeta implements IComponente{
 
     }
 
-    setDireccion(direccion:string){
-        this.direccion = direccion;
-    }
 
     toString(): string {
         let texto : string ="\n" +"-" + this.obtenerNombre() + "\n";
